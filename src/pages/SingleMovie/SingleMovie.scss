@@ -1,0 +1,123 @@
+.heading {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.single-card{
+  display: flex;
+  margin-top: 30px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #fff;
+
+  .left{
+    margin-right: 30px;
+    width: 100%;
+    min-height: 400px;
+    display: block;
+
+    .card-img{
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .card-rating {
+      color: #fff;
+      padding: 10px 25px;
+      font-size: 16px;
+      background-color: #1966B3;
+      border-radius: 0 5px 5px 0;
+      position: absolute;
+      top: 30px;
+      left: 0;
+      z-index: 1;
+    }
+  }
+
+  .right{
+    .card-subtitle{
+      margin-bottom: 16px;
+    }
+    .card-overview{
+      margin-bottom: 16px;
+    }
+
+    .card-date{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+
+    .time{
+      margin-bottom: 16px;
+    }
+
+    .title{
+      font-weight: bold;
+      margin-right: 5px;
+    }
+
+    .genre-title{
+      margin-right: 5px;
+      background-color: #777;
+      padding: 5px 10px;
+      border-radius: 15px;
+
+      &:hover{
+        background-color: #1966B3;
+        cursor: pointer;
+      }
+    }
+  }
+
+}
+
+
+.prod-companies {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
+
+  .prodby {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 16px;
+    padding: 0 15px;
+
+    .prod-img {
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+      margin-bottom: 8px;
+    }
+  }
+}
+
+.listOfActors{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 30px;  
+
+  .actor{
+    text-align: center;
+    margin-bottom: 36px;
+    text-decoration: none;
+    color: #fff;
+    
+    &-img{
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+}

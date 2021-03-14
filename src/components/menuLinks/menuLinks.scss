@@ -1,0 +1,14 @@
+.menu-links {
+  text-decoration: none;
+  display: block;
+  padding: 15px 35px;
+  color: #fff;
+
+  &:hover {
+    background-color: #777;
+  }
+
+  &:active {
+    background-color: #1966B3;
+  }
+}
